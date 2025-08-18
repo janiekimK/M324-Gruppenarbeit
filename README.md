@@ -1,4 +1,9 @@
-# BBZBL Modul 324: Web-Applikation Template
+# Static HTML Site
+Dieses Projekt wird eine Art Zeichenbrett für das gesamte Team sein, um unsere kreativen Ideen auf die Leinwand zu bringen und dabei vielleicht auch unsere Programmierfähigkeiten zu verbessern. Jedes Teammitglied ist frei, das einzubringen, was ihm in den Sinn kommt.
+
+example and inspiration: https://www.sharyap.com/
+
+## BBZBL Modul 324: Web-Applikation Template
 
 Dieses Template dient als Vorlage zum Starten eures Projekts.
 
