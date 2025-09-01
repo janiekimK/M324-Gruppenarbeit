@@ -1,59 +1,48 @@
 # App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.15.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 19.2.15.
 
 ## Development server
 
-To start a local development server, run:
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-```bash
-ng serve
-```
+## Code build
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Running unit tests
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-```bash
-ng test
-```
+## Code Quality Tools
 
-## Running end-to-end tests
+This project uses ESLint and Prettier to maintain code quality and consistency.
 
-For end-to-end (e2e) testing, run:
+### ESLint
+- **Purpose**: Code linting and error detection
+- **Configuration**: `.eslintrc.json`
+- **Rules**: Angular-specific rules with TypeScript support
+- **Commands**:
+  - `npm run lint` - Check for linting issues
+  - `npm run lint:fix` - Automatically fix linting issues
 
-```bash
-ng e2e
-```
+### Prettier
+- **Purpose**: Code formatting and style consistency
+- **Configuration**: `.prettierrc`
+- **Rules**: Opinionated formatting with minimal configuration
+- **Commands**:
+  - `npm run format` - Format all source files
+  - `npm run format:check` - Check if files are properly formatted
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+### VS Code Integration
+The `.vscode/settings.json` file configures VS Code to:
+- Format code on save using Prettier
+- Show ESLint errors and warnings
+- Use Prettier as the default formatter for all supported file types
 
-## Additional Resources
+### EditorConfig
+The `.editorconfig` file provides basic editor settings for consistent indentation and line endings across different editors and IDEs.
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
