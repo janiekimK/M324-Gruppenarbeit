@@ -1,7 +1,8 @@
 # Static HTML Site
-Dieses Projekt wird eine Art Zeichenbrett für das gesamte Team sein, um unsere kreativen Ideen auf die Leinwand zu bringen und dabei vielleicht auch unsere Programmierfähigkeiten zu verbessern. Jedes Teammitglied ist frei, das einzubringen, was ihm in den Sinn kommt.
+Dieses Projekt ist eine kollaborative **Angular-Webanwendung**, die als digitales Zeichenbrett für unser Team dient.  
+Es bietet eine kreative Spielwiese, um Ideen visuell umzusetzen und gleichzeitig unsere **Kenntnisse in Angular, TypeScript und Webentwicklung** zu vertiefen.  
 
-example and inspiration: https://www.sharyap.com/
+Inspiration: [sharyap.com](https://www.sharyap.com/)
 
 ## BBZBL Modul 324: Web-Applikation Template
 
