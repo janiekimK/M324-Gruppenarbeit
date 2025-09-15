@@ -12,7 +12,7 @@ RUN npm run build
 
 # Runtime stage
 FROM node:20-slim
-LABEL service="myapp"
+LABEL service="app"
 WORKDIR /app
 
 # Copy only built output (Angular SSR expects server and browser folders)
