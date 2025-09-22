@@ -44,6 +44,11 @@ app.use(
   })
 );
 
+// Health check endpoint for AWS
+app.get('/up', (_req, res) => {
+  res.sendStatus(200);
+});
+
 /**
  * Handle all other requests by rendering the Angular application.
  */
