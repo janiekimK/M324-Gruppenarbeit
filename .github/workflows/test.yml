@@ -1,7 +1,6 @@
 name: Test
 on:
   push:
-    paths: app/**
 jobs:
   test:
     name: Test
