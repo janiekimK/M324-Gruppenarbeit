@@ -27,6 +27,13 @@ const angularApp = new AngularNodeAppEngine();
  */
 
 /**
+ * Health check route
+ */
+app.get('/up', (req, res) => {
+  res.status(200).send('OK');
+});
+
+/**
  * Serve static files from /browser
  */
 app.use(
