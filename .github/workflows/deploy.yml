@@ -20,7 +20,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - uses: "./.github/shared/aws-credentials-to-env"
+      - uses: "./.github/aws-credentials-to-env"
         with:
           aws-credentials: ${{ secrets.AWS_CREDENTIALS }}
 
@@ -58,7 +58,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - uses: "./.github/shared/aws-credentials-to-env"
+      - uses: "./.github/aws-credentials-to-env"
         with:
           aws-credentials: ${{ secrets.AWS_CREDENTIALS }}
       - name: Configure AWS credentials
