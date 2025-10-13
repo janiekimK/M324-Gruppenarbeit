@@ -2,7 +2,7 @@
 service: m324-gruppenarbeit
 
 # Name of the container image.
-image: m324-gruppenarbeit
+image: <%= ENV["KAMAL_REGISTRY"] %>/m324-gruppenarbeit
 
 # Deploy to these servers.
 servers:

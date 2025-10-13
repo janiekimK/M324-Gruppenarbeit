@@ -9,7 +9,7 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  DOCKER_IMAGE_NAME: m324/myapp
+  DOCKER_IMAGE_NAME: m324-gruppenarbeit
 
 permissions:
   contents: read
